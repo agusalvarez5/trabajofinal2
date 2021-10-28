@@ -1,0 +1,99 @@
+body { 
+    font-family: 'Montserrat', sans-serif;     
+    background-color: hsl(209, 72%, 89%);
+    margin: 0;
+    }
+
+.BANNER {
+    width: 100%;
+    height: 178px;
+    background-color: hsla(207, 87%, 64%, 0.075);
+}
+.bannerimg {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 512px;
+    min-width: 480px;
+    padding: 0px;
+}
+.cabeceratit1{
+    background-color: hsla(207, 87%, 64%, 0.075);
+}
+
+#info {
+    width: auto;
+    height: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 20px;  
+    text-align: center;
+}
+
+#info2 {
+   font-size: 20px;  
+   text-align: center;
+}
+
+
+@media screen and (min-width: 52em){
+ .tit1centrado {
+    margin: 0 0 0.5em 0;
+    padding: 1em;
+    }
+}
+.tit1 {
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    padding-bottom: 0;
+    font-weight: 100;
+    color: black;
+}
+
+.tarjeta a {
+    color: hsl(0, 5%, 4%);
+    text-decoration: none;
+}
+
+.tarjeta a:hover{
+    box-shadow: 1px hsl(207, 52%, 89%);
+}
+.tarjeta-content {
+    padding: .5em;
+}
+.tarjeta-content h2{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: normal ;
+}
+.tarjeta-content p{
+    font-size: 100%;
+}
+
+.imagen{
+    margin: 1em 1em 0em 1em;
+    background-color: hsl(207, 52%, 89%);
+}
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height:auto;
+}
+
+
+.tarjeta {
+    background-color: hsla(207, 87%, 64%, 0.075);
+    margin-bottom: .5em;
+    width: 33%;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+#info2 {
+    font-size: 90%; 
+}
+
